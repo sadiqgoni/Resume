@@ -1,0 +1,168 @@
+body{
+  font-family: sans-serif;
+  font-size: 17px;
+  color: black;
+  background-color: rgb(225, 243, 243);
+  margin:1px;
+  padding: 1px;
+  width: 978px;
+  box-sizing: border-box;
+  padding-top: 20px;
+  padding-bottom: 25px;
+}
+.all{
+  display: flex;
+  margin: 50px 0;
+}
+.container{
+  margin: 0 auto;
+  background-color: white;
+  box-shadow: 0px 3px 3px 10px rgb(0,0,0,0.05);
+  border-radius: 20px;
+  width: 870px;
+}
+.info{
+  padding: 14px;
+  justify-content: space-between;
+  display: flex;
+}
+
+.headshot{
+  display: flex;
+}
+.headshot .img{
+  border-radius: 40px;
+  margin-right: 20px;
+  width: 80px;
+  cursor: pointer;
+}
+.headshot .name{
+  font-size: 2rem;
+  align-self: center;   
+}
+.name span{
+  font-weight: bold;
+}
+
+.items-table{
+  list-style: none;
+  padding-bottom: 0px;
+}
+
+
+.title{
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: 0em;
+  color: rgb(0, 142, 252);
+}
+
+.bold-text{
+  font-style: normal;
+  font-weight: small;
+  letter-spacing: 0em;
+}
+.bold-text p{
+  margin-bottom: 200px;
+  display: block;
+}
+p{
+  font-size: 16px;
+  font-weight: normal;
+}
+.section{
+  display: flex;
+  padding-top: 54px;
+  margin: 20px;
+  padding-bottom: 53px;
+  border-top: 2px solid #E5E5E5;
+}
+
+.text p{
+  font-size: 1em;
+  line-height: 1.5;
+}
+
+body p{
+  font-weight: 400;
+  line-height: 1.5;
+}
+.intro .text{
+  margin-right: 155px;
+}
+
+.interest .text{
+  margin-right: 118px;
+}
+.interest .details{
+  align-self: center;
+}
+.skill .text{
+  margin-right: 150px;
+}
+.skill .details{
+  display: flex;
+}
+.semi-bold_text{
+font-weight: 600;
+}
+.skill figure{
+  margin-right: 15%;
+  text-align: center;
+}
+.skill figure img{
+  height: 70px;
+}
+.details .light, .duration{
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 18px;
+  color: rgb(170,170,170);
+}
+.education .text{
+  margin-right: 110px;
+}
+.education-item{
+  display: flex;
+  margin-bottom: 45px;
+  justify-content: space-between;
+}
+.education-item .duration{
+  align-self: flex-end;
+  margin-left: 106px;
+}
+.exp .text{
+  margin-right: 100px;
+}
+.inner.exp{
+  justify-content: space-between;
+  display: flex;
+}
+.exp .duration{
+  margin-left: 350px;
+  align-self: flex-end;
+}
+.exp-item{
+  margin-bottom: 50px;
+}
+.exp-info p{
+  margin-bottom: 15px;
+}
+.exp-role {
+  width: 350px;
+  margin-top: 30px;
+}
+.project .text{
+  margin-right: 125px;
+}
+.project a{
+  text-decoration: none;
+  color: rgb(0, 142, 252);
+  font-size: small;
+  font-weight: 600;
+  line-height: 20px;
+}
+.project .details{
+  margin-bottom: 6px;
+  text-align: center;
+}
